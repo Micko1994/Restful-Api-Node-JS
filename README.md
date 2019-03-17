@@ -1,15 +1,16 @@
-# Restful-Api-Node-JS
 This project was created with Node.js.
 
 For running server side will need only this two commands:
 
-npm i is a for getting node_modules.
-npm start is a command for running project.
+* `npm i` is a for getting node_modules.
+* `npm start` is a command for running project.
 
-Server listen http://localhost:8000 to view it in the browser.
+Server listen [http://localhost:8000] to view it in the browser.
 
-Package.json
 
+**Package.json**
+
+```json
 {
   "name": "login-with-node",
   "version": "1.0.0",
@@ -18,6 +19,10 @@ Package.json
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Micko1994/Restful-Api-Node-JS"
   },
   "author": "Mickael",
   "license": "ISC",
@@ -34,6 +39,7 @@ Package.json
     "nodemon": "^1.18.10"
   }
 }
+```
 
 
 
